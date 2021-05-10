@@ -1,0 +1,56 @@
+.navbar2 {
+  background-color: black ;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+
+.fa-firstdraft {
+ xmargin-left: 0.5rem;
+ Xfont-size: 0.6rem;
+}
+
+.nav-menu2 {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item2 {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links2 {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links2:hover {
+  background-color: #F0B823;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+

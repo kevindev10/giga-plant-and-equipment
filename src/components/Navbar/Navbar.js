@@ -40,8 +40,12 @@ function Navbar() {
   return (
 	<div>
 		 <nav className='navbar'>
-		 	<Link exact to ='/' className='navbar-logo'>
-		 		WATER LIFE 
+		 	<Link exact to ='/' className='navbar-logo '>
+		 		 <div style={{'height':'30px', 'line-height':'30px'}} >
+			   		<span style={{ 'color':'orange', 'font-size':'38px' }}>GIGA</span>
+			        <span style={{ 'color':'white', 'font-size':'20px' }}> . PLANT & EQUIPMENT</span>
+			        
+			    </div>	
 		 	</Link>
 		 	<div className='menu-icon' onClick ={handleClick} >
 		 		<i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -50,39 +54,61 @@ function Navbar() {
 
 			 	<li className ='nav-item'>
 			 		<Link exact to='/' className='nav-links' onClick ={closeMobileMenu}>
-			 			Home
+			 			HOME
 			 		</Link>
 			 	</li>
 
+			 	
+
 			 	<li className ='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={extendElement}>
-			 		<Link  to='/about' className='nav-links' >
-			 			About <i className='fas fa-caret-down'/>
+			 		<Link  to='/curr-stk' className='nav-links' >
+			 			EQUIPMENT RANGE<i className='pl3 fas fa-caret-down'/>
 			 		</Link>
 			 		{dropdown && <Dropdown onCloseMobileMenu={closeMobileMenu}/>}
 			 	</li>
 
 			 	<li className='nav-item'>
-		            <Link  to='/clean-water' className='nav-links' onClick={closeMobileMenu}>
-		            	 Clean Water
+		            <Link  to='/curr-stk' className='nav-links' onClick={closeMobileMenu}>
+		            	 CURRENT STOCKLIST
 		            </Link>
 	          </li>
 
 			 	<li className ='nav-item'>
-			 		<Link  to='/get-involved' className='nav-links' onClick ={closeMobileMenu}>
-			 			Get Involved
+			 		<Link  to='/rentals' className='nav-links' onClick ={closeMobileMenu}>
+			 			RENTALS
 			 		</Link>
 			 	</li>	
 			 	<li className ='nav-item'>
-			 		<Link  to='/blog' className='nav-links' onClick ={closeMobileMenu}>
-			 			Blog
+			 		<Link  to='/spares' className='nav-links' onClick ={closeMobileMenu}>
+			 			SPARE PARTS
+			 		</Link>
+			 	</li>
+			 	<li className ='nav-item'>
+			 		<Link  to='/services' className='nav-links' onClick ={closeMobileMenu}>
+			 			SERVICES
+			 		</Link>
+			 	</li>
+			 	<li className ='nav-item'>
+			 		<Link  to='/partners' className='nav-links' onClick ={closeMobileMenu}>
+			 			PARTNERS
 			 		</Link>
 			 	</li>	
 
-			 	<li className ='nav-item'>
-			 		<Link exact to='/donate' className='nav-links-mobile' onClick ={closeMobileMenu}>
-			 			Donate
+				<li className ='nav-item'>
+			 		<Link  to='/contact' className='nav-links' onClick ={closeMobileMenu}>
+			 			CONATCT US
 			 		</Link>
-			 	</li>
+			 	</li>	
+			 	<li className ='nav-item'>
+			 		<Link  to='/news' className='nav-links' onClick ={closeMobileMenu}>
+			 			NEWS
+			 		</Link>
+			 	</li>	
+
+
+	
+
+			 
 			 	
 
 		 	</ul>

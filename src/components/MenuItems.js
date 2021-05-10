@@ -1,41 +1,30 @@
 export const MenuItems = [
 	{
-		title :'Our Approach',
-		path:'/our-approach',
+		title :'NEW EQUIPMENT',
+		path:'/new-equip',
 		cName:'dropdown-link'
 
 	},
 	
 	{
-		title :'Who We Are',
-		path:'/who-we-are',
+		title :'USED EQUIPMENT',
+		path:'/used-equip',
 		cName:'dropdown-link'
 
 	},
 	{
-		title :'Partners',
-		path:'/partners',
+		title :'CONCRETING EQUIPMENT',
+		path:'/conc-equip',
 		cName:'dropdown-link'
 
 	},
 	{
-		title :'Contact Us Now !',
-		path:'/contact',
+		title :'MATERIALS HANDLING EQUIOMENT',
+		path:'/materials-equip',
 		cName:'dropdown-link'
 
 	},
-	{
-		title :'FAQ',
-		path:'/faq',
-		cName:'dropdown-link'
-
-	},
-	{
-		title :'Downlaodable Materials',
-		path:'/downloads',
-		cName:'dropdown-link'
-
-	},
+	
 	
 
 ];

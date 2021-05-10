@@ -1,0 +1,28 @@
+@media screen and (max-width: 960px){
+	.machine-of-week-main-mobile-view{
+		padding-left: 4px;
+		padding-right:4px;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	 .machine-of-week-mobile-view{
+	 	display:block;
+	 }
+
+	 .machine-of-week-image-and-paragraph-width-mobile-view{
+	 	padding-left: 1px;
+		padding-right: 1px;
+	 }
+
+
+	 .machine-of-week-image-width-mobile-view{
+	 	width: 100%;
+	 	padding-left: 1px;
+		padding-right: 1px;
+	 }
+
+	 .machine-of-week-paragraph-width-mobile-view{
+	 	width: 100%;
+	 }
+
+}

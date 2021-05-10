@@ -1,0 +1,188 @@
+.banner{
+	object-fit: cover;
+    width: 100%;
+    height: 492px;
+
+}
+
+@media screen and (max-width: 960px){
+	.mobile-display-font-size-header{
+		font-size: 24px;
+		font-weight: 900;
+
+	}
+
+	.mobile-display-font-size-sub-header{
+		font-size: 18px;
+		font-weight: normal
+	}
+
+	.mobile-display-font-size-paragraph{
+		font-size: 14px;
+		max-width: 96%;
+		font-weight: normal !important;
+	}
+	.mobile-paragraph-padding-main{
+		margin-left: 0px;
+	}
+	.mobile-paragraph-padding{
+		margin-right: 20px  !important;
+		margin-left: 20px !important;
+	}
+	.youtube-main{
+		display: flex;
+		justify-content: center;
+		
+	}
+	.youtube{
+
+		width:96% ;
+		height:350px !important;
+		
+	}
+	.sale-banner-desktop-only{
+		display:none  ;
+	}
+
+	.portfolio-on-mobile-width{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.portfolio-on-mobile-article-padding{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.portfolio-on-mobile-main{
+		display: block;
+	}
+	.portfolio-on-mobile-pararaph-width{
+		width:100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.portfolio-on-mobile-pararaph-head-padding {
+		text-align: center;
+		margin-top: 10px;
+		padding-top: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.portfolio-on-mobile-img-width{
+		width:100%;
+		padding-bottom: 50px;
+	}
+	.portfolio-on-mobile-img-width-second-image{
+		width:100%;
+		padding-bottom:0px;
+		margin-bottom: 0px;
+		
+	}
+	.portfolio-on-mobile-pararaph-head-padding-second-paragraph{
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.portfolio-on-mobile-article-second-paragraph{
+		margin-top: 10px;
+		margin-bottom: 70px;
+	}
+
+	.main-cardz-on-mobile{
+		padding-right: 0px;
+		padding-left: 0px ;
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+	.cardz-on-mobile{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+
+
+		width: 95%;
+	}
+	.card-photo-mobile{
+		object-fit: cover;
+		width: 100%;
+		
+	}
+	.mobile-paragraph-padding{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.mobile-display-font-size-paragraph{
+		font-size: 14px;
+	}
+	.button-mobile{
+		display: block;
+		margin-bottom: 0px
+
+	}
+	.button-mobile-footer{
+		width: 50%;
+		
+	}
+	.footer-main-on-mobile{
+		margin-right:0px;
+        margin-left:0px;
+	}
+	.footer-flex-on-mobile{
+		display:block;
+	}
+	.footer-quicklinks-on-mobile{
+		padding-top:40px;
+		padding-bottom: 10px;
+		text-align: center;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.footer-contact-on-mobile{
+		padding-top:30px;
+		padding-bottom: 30px;
+		text-align: center;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.footer-social-buttons-on-mobile{
+		padding:10px;
+		margin:10px;
+
+	}
+	.footer-whatsapp-buttons-on-mobile{
+		
+		padding:10px;
+		margin:10px;
+	}
+	.footer-policies-on-mobile{
+
+		
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+
+@media screen and (min-width: 961px){
+	.sale-banner-mobile-only{
+		display: none ;
+	}
+	.cardz{
+		display: flex;
+		justify-content: center;
+	}
+}

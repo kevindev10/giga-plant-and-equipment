@@ -1,0 +1,121 @@
+{
+	"type": "FeatureCollection",
+	"name": "Warehouses",
+	"crs": { "type": "name",
+		"properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } 
+	},
+	"features": [
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 1, 
+				"NAME": "Khartoum",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ 15.59704, 32.63725 ] 
+			} 
+		},
+
+		{
+			"type": "Feature",
+			"properties":
+			{ 				
+				"PARK_ID": 2,
+				"NAME": "Addis Ababa",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+		   },
+			"geometry":
+			{ "type": "Point",
+				"coordinates": [ 8.96977, 38.76949 ]
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 3, 
+				"NAME": "Kampala",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ 0.35205, 32.52176 ] 
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 4, 
+				"NAME": "Nairobi",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ -1.04599, 36.89748 ] 
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 5, 
+				"NAME": "Daresalaam",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ -6.73595, 39.25849 ] 
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 6, 
+				"NAME": "Lusaka",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ -15.36001, 28.30188 ] 
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 7, 
+				"NAME": "Windhoek",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [ -22.55302, 17.04441 ] 
+			} 
+		},
+
+		{ "type": "Feature",
+			"properties": 
+			{ 
+				"PARK_ID": 8, 
+				"NAME": "Pretoria",
+				"DESCRIPTION": "Large 57,000 sq ft Warehouse"
+				
+			},
+			"geometry": 
+			{ "type": "Point",
+				"coordinates": [-25.74117, 28.24653] 
+			} 
+		}
+
+	]
+}

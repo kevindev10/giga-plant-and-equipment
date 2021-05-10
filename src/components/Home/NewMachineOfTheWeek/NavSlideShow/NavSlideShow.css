@@ -1,0 +1,17 @@
+@media screen and (max-width: 960px){
+	.slideshow-top-img-mobile-view{
+		
+
+		width: 100%;
+		height: auto
+
+	}
+
+	.slideshow-bottom-imgs-mobile-view{
+		width: 80px;
+		height: 55px;
+		padding-right: 1px;
+		padding-left: 1px;
+	}
+
+}
