@@ -21,7 +21,7 @@ function NavbarTop() {
 
 		 	</Link>
 		 
-		 	<ul className='navTop-menu'>
+		 	<ul className='navTop-menu flex' >
 		 			<li><a href="https://web.facebook.com/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"> </a></li>
 		 			<li><a href="https://www.instagram.com/"  target="_blank" rel="noopener noreferrer" class="fa fa-instagram"> </a></li>
 		 			<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"> </a>
