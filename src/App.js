@@ -27,7 +27,6 @@ import News from './components/News/News';
 
 
 
-
 function App() {
   return (
     <BrowserRouter>
